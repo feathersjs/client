@@ -1,0 +1,24 @@
+{
+  "name": "feathers-websocket-client",
+  "version": "0.0.1",
+  "homepage": "https://github.com/feathersjs/feathers-websocket-client",
+  "authors": [
+    "David Luecke <daff@neyeon.com>"
+  ],
+  "description": "JavaScript websocket client for real-time connections",
+  "main": "dist/feathers-websocket-client.js",
+  "keywords": [
+    "feathers-plugin",
+    "feathers",
+    "socketio",
+    "websockets"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
