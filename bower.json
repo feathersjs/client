@@ -1,7 +1,7 @@
 {
   "name": "feathers-client",
-  "version": "0.1.0",
-  "repo": "feathersjs/feathers-client",
+  "version": "0.5.1",
+  "repo": "tkornblit/feathers-client",
   "keywords": [
     "feathers",
     "jquery",
