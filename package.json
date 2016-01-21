@@ -4,13 +4,13 @@
   "version": "0.5.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/feathersjs/feathers-client.git"
+    "url": "https://github.com/tkornblit/feathers-client"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/feathersjs/feathers-client/issues"
+    "url": "https://github.com/tkornblit/feathers-client/issues"
   },
-  "homepage": "https://github.com/feathersjs/feathers-client",
+  "homepage": "https://github.com/tkornblit/feathers-client",
   "keywords": [
     "feathers",
     "feathers-plugin",
