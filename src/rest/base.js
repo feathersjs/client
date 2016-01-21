@@ -1,5 +1,5 @@
 import query from 'querystring';
-import { stripSlashes, normalize, makeEmitting } from '../utils';
+import { flattenParams, stripSlashes, normalize, makeEmitting } from '../utils';
 
 function callbackify(promise, callback) {
   if(typeof callback === 'function') {
@@ -33,6 +33,9 @@ export class Base {
     }
 
     if(Object.keys(params).length !== 0) {
+
+      params = flattenParams(params);
+
       const queryString = query.stringify(params);
 
       url += `?${queryString}`;
