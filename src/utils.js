@@ -51,3 +51,34 @@ export function normalize(target) {
     }
   });
 }
+
+export function flattenParams(params){
+
+  var newParams = {};
+
+  Object.keys(params).forEach(key => {
+
+    var value  = params[key];
+
+    if(typeof value === "object"){
+
+      Object.keys(value).forEach(innerKey => {
+
+        var newKey = key + "[" + innerKey + "]";
+        var newValue = value[innerKey];
+
+        newParams[newKey] = newValue;
+        
+      });
+
+
+    } else {
+
+      newParams[key] = value;
+
+    }
+
+  });
+
+  return newParams
+}
