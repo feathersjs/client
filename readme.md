@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/feathersjs/feathers-client.png?branch=master)](https://travis-ci.org/feathersjs/feathers-client)
 
+[![Sauce Test Status](https://saucelabs.com/buildstatus/feathersjs)](https://saucelabs.com/u/feathersjs)
+
 > A client for Feathers services supporting many different transport libraries.
 
 ## About
