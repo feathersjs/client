@@ -42,7 +42,8 @@
     "jshint": "jshint src/. test/. --config",
     "mocha": "mocha test/*/**.test.js --compilers js:babel-core/register --recursive --timeout 10000",
     "saucelabs": "grunt",
-    "test": "npm run clean && npm run browserify && npm run jshint && npm run mocha && npm run saucelabs"
+    "test": "npm run clean && npm run browserify && npm run jshint && npm run mocha",
+    "ci": "npm test && npm run saucelabs"
   },
   "directories": {
     "lib": "lib"

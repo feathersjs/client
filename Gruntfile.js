@@ -8,9 +8,6 @@ module.exports = function (grunt) {
     browserName: 'googlechrome',
     platform: 'linux'
   }, {
-    browserName: 'opera',
-    platform: 'linux'
-  }, {
     browserName: 'safari',
     platform: 'OS X 10.11',
     version: '9.0'
