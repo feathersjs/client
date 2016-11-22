@@ -30,6 +30,7 @@
     "browserify:min": "browserify src/client.js -t babelify --standalone feathers | uglifyjs > dist/feathers.min.js",
     "browserify": "npm run browserify:dist && npm run browserify:min && npm run browserify:test",
     "reinstall": "rm -rf node_modules && npm install",
+    "postinstall": "typings install",
     "add-dist": "npm run clean && npm run browserify:dist && npm run browserify:min && git add dist/ --force && git commit -am \"Updating dist\"",
     "prepublish": "npm run compile",
     "publish": "git push origin --tags && npm run changelog && git push origin",
@@ -98,6 +99,7 @@
     "semistandard": "^9.1.0",
     "socket.io-client": "^1.3.5",
     "superagent": "^3.0.0",
+    "typings": "^2.0.0",
     "uglifyjs": "^2.4.10",
     "ws": "^1.1.1"
   }
