@@ -7,8 +7,8 @@ interface FeathersApp {
   get(type: string): any;
 
   // Services.
-  service(name: string): FeathersService;
-
+  service<T>(name: string): FeathersService<T>;
+  
   configure(fn: () => void): FeathersApp;
 }
 
