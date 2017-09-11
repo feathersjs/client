@@ -1,3 +1,5 @@
+import 'es6-object-assign/auto';
+import 'es6-promise/auto';
 import feathers from 'feathers/client';
 import hooks from 'feathers-hooks';
 import errors from 'feathers-errors';
