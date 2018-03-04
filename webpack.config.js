@@ -23,11 +23,10 @@ function createConfig (name, isProduction = false) {
   };
 
   const dev = {
-    devtool: 'source-map'
+    mode: 'development'
   };
-
   const production = {
-    devtool: 'cheap-module-source-map',
+    mode: 'production',
     output: {
       filename: `${output}.min.js`
     },
