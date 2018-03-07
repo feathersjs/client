@@ -23,7 +23,8 @@ function createConfig (name, isProduction = false) {
   };
 
   const dev = {
-    mode: 'development'
+    mode: 'development',
+    devtool: 'source-map'
   };
   const production = {
     mode: 'production',
