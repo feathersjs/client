@@ -10,6 +10,7 @@ function createConfig (name, isProduction = false) {
     output: {
       library: 'feathers',
       libraryTarget: 'umd',
+      globalObject: 'this',
       path: path.resolve(__dirname, 'dist'),
       filename: `${output}.js`
     },
