@@ -57,13 +57,13 @@
     "@feathersjs/socketio-client": "1.1.2"
   },
   "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
     "@feathersjs/express": "^1.2.3",
     "@feathersjs/primus": "^3.2.1",
     "@feathersjs/socketio": "^3.2.2",
-    "babel-core": "^6.26.3",
     "babel-loader": "^8.0.0",
-    "babel-polyfill": "^6.26.0",
-    "babel-preset-es2015": "^6.24.1",
     "body-parser": "^1.18.3",
     "feathers-memory": "^2.1.3",
     "grunt": "^1.0.3",
