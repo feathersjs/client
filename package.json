@@ -45,7 +45,10 @@
       "mocha"
     ]
   },
-  "browserslist": "last 3 versions",
+  "browserslist": [
+    "last 2 versions",
+    "IE 10"
+  ],
   "greenkeeper": {
     "ignore": "jsdom"
   },
