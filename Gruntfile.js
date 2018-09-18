@@ -19,10 +19,6 @@ module.exports = function (grunt) {
     browserName: 'internet explorer',
     platform: 'Windows 10',
     version: '11'
-  }, {
-    browserName: 'internet explorer',
-    platform: 'Windows 10',
-    version: '15'
   }];
 
   grunt.registerTask('server', 'Start the test server', function () {
