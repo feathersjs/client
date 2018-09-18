@@ -3,7 +3,8 @@
     [
       "@babel/preset-env",
       {
-        "loose": true
+        "loose": true,
+        "targets": "> 0.25%, not dead"
       }
     ]
   ]
