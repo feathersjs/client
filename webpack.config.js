@@ -20,6 +20,9 @@ function createConfig (name, isProduction = false) {
         exclude: /node_modules\/(?!(@feathersjs))/,
         loader: 'babel-loader'
       }]
+    },
+    resolve: {
+      mainFields: ['browser', 'module', 'main']
     }
   };
 
