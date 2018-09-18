@@ -2,10 +2,7 @@
   "presets": [
     [
       "@babel/preset-env",
-      {
-        "loose": true,
-        "targets": "last 3 versions"
-      }
+      { "loose": true }
     ]
   ]
 }
